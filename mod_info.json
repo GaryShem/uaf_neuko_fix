@@ -6,7 +6,7 @@
   "version": {
     "major": "1",
     "minor": "0",
-    "patch": "1"
+    "patch": "2"
   },
   "description": "This adds a fix for UAF Neuko, which allows for behavior changes to work instead of acting Fearless all the time",
   "gameVersion": "0.98a-RC5",

@@ -33,7 +33,11 @@ public class NeukoShipAIPlugin extends BaseModPlugin {
     @Override
     public PluginPick<ShipAIPlugin> pickShipAI(FleetMemberAPI member, ShipAPI ship) {
         if (isNeuko(member) && isUAF_AI(member)) {
-            Global.getLogger(getClass()).info("Current " + member.getCaptain().getNameString() + " Neuko personality: " + member.getCaptain().getPersonalityAPI().getDisplayName());
+            String shipName = "<unknown>";
+            if (ship != null) {
+                shipName = ship.getName();
+            }
+            Global.getLogger(getClass()).info("Neuko personality for ship " + shipName + ": " + member.getCaptain().getPersonalityAPI().getDisplayName());
             ShipAIConfig shipAI = new ShipAIConfig();
             shipAI.personalityOverride = member.getCaptain().getPersonalityAPI().getId();
             return new PluginPick<ShipAIPlugin>(
