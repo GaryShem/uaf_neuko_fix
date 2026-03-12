@@ -1,0 +1,13 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/GaryShem/uaf_neuko_fix/refs/heads/master/fwiffo_uaf_neuko_personality_fix.version",
+  "modName": "UAF Neuko Fix",
+  "modVersion":
+    {
+      "major": 1,
+      "minor": 0,
+      "patch": 0
+    },
+  "modThreadId": 0,
+  "directDownloadURL": "https://github.com/GaryShem/uaf_neuko_fix/releases/latest/download/UAF.Neuko.Fix.1.0.0.zip",
+  "changelogURL": "https://raw.githubusercontent.com/GaryShem/uaf_neuko_fix/master/CHANGELOGS.md",
+}

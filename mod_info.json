@@ -1,0 +1,23 @@
+{
+  "id": "uaf_neuko_personality_fix",
+  "name": "UAF Neuko Fix",
+  "author": "Fwiffo",
+  "utility": false,
+  "version": {
+    "major": "1",
+    "minor": "0",
+    "patch": "0"
+  },
+  "description": "This adds a fix for UAF Neuko, which allows for behavior changes to work instead of acting Fearless all the time",
+  "gameVersion": "0.98a-RC5",
+  "jars": [
+    "jars/UAFNeukoFix.jar"
+  ],
+  "modPlugin": "data.scripts.NeukoShipAIPlugin",
+  "dependencies": [
+    {
+      "id": "uaf",
+      "version": "0.8.3d"
+    }
+  ]
+}
